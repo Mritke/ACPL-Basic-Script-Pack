@@ -2,6 +2,9 @@
   ["tsk1","Zadanie 1","treść, co mamy zrobić, itd.",true],
   ["tsk2","Zadanie 2","treść, co mamy zrobić, itd.",true]
 ],[
+///////////////////////////////////
+
+///////////////////////////////////
   ["Sytuacja","Operacja XYZ - 11.09.2001<br/>
 <br/>
 Ogólny opis sytuacji, raczej wyjaśnienie co doprowadziło do wyprowadzenia działań.<br/>
@@ -13,10 +16,16 @@ CEL PODSTAWOWY \ Main Objective: Główny cel misji.<br/>
 CELE DRUGORZEDNE \ Secondary Objective:<br/>
 - Zadania opcjonalne, liczone przez mechanikę bądź nie, wymieniane od kresków;<br/>
 - Bo tak jest pro. Można wpisać banały typu minimalizacja strat własnych, cywilnych, etc.<br/>",true],
+///////////////////////////////////
+
+///////////////////////////////////
   ["Wykonanie","Nakreślenie perymetru \ drogi i zadań dla poszczególnych części plutonu \ jednostki operacyjnej, np.:<br/>
 - 1 druzyna odetnie i zabezpieczy teren na polnoc, polnocny zachod i zachod od Kazar;<br/>
 - 2 druzyna odetnie i zabezpieczy wschodnia czesc Kazar, po wschodniej stronie rzeki;<br/>
 - 3 druzyna odetnie i zabezpieczy teren na poludnie od Kazar;<br/>",true],
+///////////////////////////////////
+
+///////////////////////////////////
   ["Wywiad","Informacje o wrogu, pogodie, itd, np.:<br/>
 Przeciwnik:<br/>
 - określenie przeciwnika (afilacja, frakcja, jednostka \ jednostki, rodowód);
@@ -53,6 +62,9 @@ Teren:<br/>
 Siły sojusznicze:
 - poza dzialajacymi w tym rejonie silami 3 plutonu, brak sil wlasnych oraz sprzymierzonych w obrebie 2 kilometrow od terenu operacji; mozliwy ruch sil wlasnych droga powietrzna.<br/>
 ",true],
+///////////////////////////////////
+
+///////////////////////////////////
   ["Przydzial",
   "Przydzial:<br/>
 - określenie przynależności gracza do konkretnej jednostki (X drużyna X plutonu Kompanii XYZ);
@@ -80,8 +92,12 @@ Lacznosc<br/>
 Zasady Użycia Siły<br/>
 - standardowe ZUS czasu wojny \ misji stabilizacyjnej.<br/>
   ",true],
+///////////////////////////////////
+
+///////////////////////////////////
   ["Technikalia","Dodatkowe informacje dotyczace sfery technicznej (jeżeli wymagane)",true]
 ]] execvm "shk_taskmaster.sqf";
+
 if (isserver) then {
 	[
 		[
